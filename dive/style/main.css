@@ -145,7 +145,7 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 500px;
+  width: 838px;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
@@ -179,8 +179,8 @@ hr {
   -moz-user-select: none;
   background: #bbada0;
   border-radius: 6px;
-  width: 500px;
-  height: 500px;
+  width: 838px;
+  height: 838px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -267,9 +267,9 @@ hr {
     clear: both; }
 
 .grid-cell {
-  width: 106px;
-  height: 106px;
-  margin-right: 15px;
+  width: 108.33333px;
+  height: 108.33333px;
+  margin-right: 10px;
   float: left;
   border-radius: 3px;
   background: rgba(238, 228, 218, 0.35); }
@@ -281,9 +281,10 @@ hr {
   z-index: 2; }
 
 .tile {
-  width: 106px;
-  height: 106px;
-  line-height: 116px; }
+  width: 108.33333px;
+  height: 108.33333px;
+  line-height: 118.33333px; }
+
   .tile.tile-position-1-1 {
     position: absolute;
     left: 0px;
@@ -291,63 +292,198 @@ hr {
   .tile.tile-position-1-2 {
     position: absolute;
     left: 0px;
-    top: 121px; }
+    top: 118px; }
   .tile.tile-position-1-3 {
     position: absolute;
     left: 0px;
-    top: 243px; }
+    top: 237px; }
   .tile.tile-position-1-4 {
     position: absolute;
     left: 0px;
-    top: 364px; }
+    top: 355px; }
+  .tile.tile-position-1-5 {
+    position: absolute;
+    left: 0px;
+    top: 473px; }
+  .tile.tile-position-1-6 {
+    position: absolute;
+    left: 0px;
+    top: 592px; }
+.tile.tile-position-1-7 {
+	position: absolute;
+	left: 0px;
+	top: 710px;
+}
   .tile.tile-position-2-1 {
     position: absolute;
-    left: 121px;
+    left: 118px;
     top: 0px; }
   .tile.tile-position-2-2 {
     position: absolute;
-    left: 121px;
-    top: 121px; }
+    left: 118px;
+    top: 118px; }
   .tile.tile-position-2-3 {
     position: absolute;
-    left: 121px;
-    top: 243px; }
+    left: 118px;
+    top: 237px; }
   .tile.tile-position-2-4 {
     position: absolute;
-    left: 121px;
-    top: 364px; }
+    left: 118px;
+    top: 355px; }
+  .tile.tile-position-2-5 {
+    position: absolute;
+    left: 118px;
+    top: 473px; }
+  .tile.tile-position-2-6 {
+    position: absolute;
+    left: 118px;
+    top: 592px; }
+.tile.tile-position-2-7 {
+	position: absolute;
+	left: 118px;
+	top: 710px;
+}
   .tile.tile-position-3-1 {
     position: absolute;
-    left: 243px;
+    left: 237px;
     top: 0px; }
   .tile.tile-position-3-2 {
     position: absolute;
-    left: 243px;
-    top: 121px; }
+    left: 237px;
+    top: 118px; }
   .tile.tile-position-3-3 {
     position: absolute;
-    left: 243px;
-    top: 243px; }
+    left: 237px;
+    top: 237px; }
   .tile.tile-position-3-4 {
     position: absolute;
-    left: 243px;
-    top: 364px; }
+    left: 237px;
+    top: 355px; }
+  .tile.tile-position-3-5 {
+    position: absolute;
+    left: 237px;
+    top: 473px; }
+  .tile.tile-position-3-6 {
+    position: absolute;
+    left: 237px;
+    top: 592px; }
+.tile.tile-position-3-7 {
+	position: absolute;
+	left: 237px;
+	top: 710px;
+}
   .tile.tile-position-4-1 {
     position: absolute;
-    left: 364px;
+    left: 355px;
     top: 0px; }
   .tile.tile-position-4-2 {
     position: absolute;
-    left: 364px;
-    top: 121px; }
+    left: 355px;
+    top: 118px; }
   .tile.tile-position-4-3 {
     position: absolute;
-    left: 364px;
-    top: 243px; }
+    left: 355px;
+    top: 237px; }
   .tile.tile-position-4-4 {
     position: absolute;
-    left: 364px;
-    top: 364px; }
+    left: 355px;
+    top: 355px; }
+  .tile.tile-position-4-5 {
+    position: absolute;
+    left: 355px;
+    top: 473px; }
+  .tile.tile-position-4-6 {
+    position: absolute;
+    left: 355px;
+    top: 592px; }
+  .tile.tile-position-4-7 {
+    position: absolute;
+    left: 355px;
+    top: 710px; }
+  .tile.tile-position-5-1 {
+    position: absolute;
+    left: 473px;
+    top: 0px; }
+  .tile.tile-position-5-2 {
+    position: absolute;
+    left: 473px;
+    top: 118px; }
+  .tile.tile-position-5-3 {
+    position: absolute;
+    left: 473px;
+    top: 237px; }
+  .tile.tile-position-5-4 {
+    position: absolute;
+    left: 473px;
+    top: 355px; }
+  .tile.tile-position-5-5 {
+    position: absolute;
+    left: 473px;
+    top: 473px; }
+  .tile.tile-position-5-6 {
+    position: absolute;
+    left: 473px;
+    top: 592px; }
+  .tile.tile-position-5-7 {
+    position: absolute;
+    left: 473px;
+    top: 710px; }
+  .tile.tile-position-6-1 {
+    position: absolute;
+    left: 592px;
+    top: 0px; }
+  .tile.tile-position-6-2 {
+    position: absolute;
+    left: 592px;
+    top: 118px; }
+  .tile.tile-position-6-3 {
+    position: absolute;
+    left: 592px;
+    top: 237px; }
+  .tile.tile-position-6-4 {
+    position: absolute;
+    left: 592px;
+    top: 355px; }
+  .tile.tile-position-6-5 {
+    position: absolute;
+    left: 592px;
+    top: 473px; }
+  .tile.tile-position-6-6 {
+    position: absolute;
+    left: 592px;
+    top: 592px; }
+  .tile.tile-position-6-7 {
+    position: absolute;
+    left: 592px;
+    top: 710px; }
+  .tile.tile-position-7-1 {
+    position: absolute;
+    left: 710px;
+    top: 0px; }
+  .tile.tile-position-7-2 {
+    position: absolute;
+    left: 710px;
+    top: 118px; }
+  .tile.tile-position-7-3 {
+    position: absolute;
+    left: 710px;
+    top: 236px; }
+  .tile.tile-position-7-4 {
+    position: absolute;
+    left: 710px;
+    top: 354px; }
+  .tile.tile-position-7-5 {
+    position: absolute;
+    left: 710px;
+    top: 472px; }
+  .tile.tile-position-7-6 {
+    position: absolute;
+    left: 710px;
+    top: 592px; }
+  .tile.tile-position-7-7 {
+    position: absolute;
+    left: 710px;
+    top: 710px; }
 
 .tilenumber {
   width: 106px;
@@ -372,6 +508,12 @@ hr {
   font-size: 35px !important; }
 .tilenumber.tile-small-6 {
   font-size: 25px !important; }
+.tilenumber.tile-small-7 {
+  font-size: 20px !important; }
+.tilenumber.tile-small-8 {
+  font-size: 15px !important; }
+.tilenumber.tile-small-9 {
+  font-size: 12px !important; }
 
 .tile {
   border-radius: 3px;
@@ -706,11 +848,17 @@ hr {
 .tile.minitile .tilenumber.tile-small-3 {
   font-size: 22px !important; }
 .tile.minitile .tilenumber.tile-small-4 {
-  font-size: 17.6px !important; }
+  font-size: 19.6px !important; }
 .tile.minitile .tilenumber.tile-small-5 {
-  font-size: 21px !important; }
+  font-size: 15px !important; }
 .tile.minitile .tilenumber.tile-small-6 {
+  font-size: 13px !important; }
+.tile.minitile .tilenumber.tile-small-7 {
   font-size: 10px !important; }
+.tile.minitile .tilenumber.tile-small-8 {
+  font-size: 8px !important; }
+.tile.minitile .tilenumber.tile-small-9 {
+  font-size: 7px !important; }
 
 
 @-webkit-keyframes appear {
@@ -1036,6 +1184,12 @@ hr {
     font-size: 18px !important; }
   .tilenumber.tile-small-6 {
     font-size: 15px !important; }
+  .tilenumber.tile-small-7 {
+    font-size: 12px !important; }
+  .tilenumber.tile-small-8 {
+    font-size: 10px !important; }
+  .tilenumber.tile-small-9 {
+    font-size: 8px !important; }
 
   .tile.minitile, .tile.minitile .tilenumber, .tile.minitile .tileoverlay {
     font-size: 18px;
@@ -1056,6 +1210,12 @@ hr {
     font-size: 10px !important; }
   .tile.minitile .tilenumber.tile-small-6 {
     font-size: 8px !important; }
+  .tile.minitile .tilenumber.tile-small-7 {
+    font-size: 6px !important; }
+  .tile.minitile .tilenumber.tile-small-8 {
+    font-size: 4px !important; }
+  .tile.minitile .tilenumber.tile-small-9 {
+    font-size: 2px !important; }
 
   .score-container:after, .best-container:after, .currently-unlocked:after {
     top: 6px;
